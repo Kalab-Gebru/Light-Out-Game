@@ -1,0 +1,30 @@
+body {
+  background-color: gray;
+}
+
+.glow {
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #41e600,
+      0 0 50px #41e600;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #3ff2ff, 0 0 40px #3ff2ff,
+      0 0 50px #3ff2ff, 0 0 60px #3ff2ff;
+  }
+}
+
+.neonLight {
+  background: yellow;
+  box-shadow: 0 0 7px #fff, 0 0 10px yellow, 0 0 21px yellow;
+}
+
+.neonborder {
+  background: white;
+  box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px white, 0 0 42px white;
+}
