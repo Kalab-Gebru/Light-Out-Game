@@ -4,7 +4,7 @@ import styled from "@emotion/styled";
 const LightCell = styled.div(
   {
     color: "white",
-    background: "yellow",
+    // background: "yellow",
     borderRadius: "100%",
     width: 50,
     height: 50,
