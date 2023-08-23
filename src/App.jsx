@@ -1,12 +1,8 @@
-import { useState } from "react";
 import styled from "@emotion/styled";
-import { css, keyframes } from "@emotion/react";
-import Board from "./components/board";
+import Board from "./components/Board";
 import "./app.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   const Title = styled.h1({
     textAlign: "center",
     fontSize: 60,

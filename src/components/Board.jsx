@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "@emotion/styled";
-import Light from "./light";
+import Light from "./Light";
 
 function Board({ size, chanceLightStartsOn }) {
   /** randomLight: returns random boolean */
